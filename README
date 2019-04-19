@@ -1,6 +1,6 @@
 # RREntropyScore
 
-The project is related to calculation of entorpy-based score (ES) for 
+The project is related to calculation of entropy-based score (ES) for 
 residue-residue contact predictions in CASP.
 
 ==============================================
@@ -26,9 +26,9 @@ Instructions to run:
 1. The program requires python module:
    1.1. numpy
 2. Input: 
-   2.1. lists of contacts in json format (Andriy's output)
+   2.1. Lists of contacts in json format (Andriy's output)
         see examples in the directory ./input
-   2.2. fasta sequence file for the CASP target in directory ./seqs
+   2.2. Fasta sequence file for the CASP target in directory ./seqs
 	see example
 3. How to run from command line:
    python rrces.readconts.py <TARGET_NAME>
@@ -36,5 +36,3 @@ Instructions to run:
 4. Output:
    The program generates files in directory ./output
    see example. 
-
-
