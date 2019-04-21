@@ -1,18 +1,7 @@
 
 # import the required libraries
-try: 
-   import numpy as np
-except ImportError:
-   print "Failed to download librabry numpy"
-
-try:
-   import math
-except ImportError:
-   print "Failed to download librabry math"
-
-
-
-
+import numpy as np
+import math
 
 class RREntropyScore:
   # class constructor   
