@@ -1,7 +1,8 @@
 ## RREntropyScore ##
 
 The project is a re-implementation of entropy-based score (ES) for 
-residue-residue contact predictions in CASP.
+residue-residue contact predictions in CASP. Document for the original
+version is available at [README](README).
 
 #### ============================================== ####
 The score calculates the relative drop of the entropy introduced 
